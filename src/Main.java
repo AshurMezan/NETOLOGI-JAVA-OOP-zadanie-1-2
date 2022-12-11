@@ -1,7 +1,7 @@
 public class Main {
     public static void main(String[] args) {
         int weight = 90; // Вес в кг
-        double growth = 1.8; // Рост в сантиметрах
+        double growth = 1.8; // Рост в метрах
         double massEffect = weight / (growth * growth); // Формула расчёта
 
         if (massEffect < 16.5) {
